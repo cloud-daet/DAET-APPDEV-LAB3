@@ -7,7 +7,6 @@ let base_number = 9;
 
 // Grade Calculator
 function calculateGrade(score) {
-    // Simple If-Else-If structure
     if (score >= 90 && score <= 100) {
         return "A"; 
     } else if (score >= 80 && score <= 89) {
@@ -32,3 +31,15 @@ function showStars(rows) {
     }
 }
 
+// Prime Number Checker
+function isPrime(n) {
+    if (n <= 1) {
+        return false;
+    }
+    for (let i = 2; i < n; i++) {
+        if (n % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
