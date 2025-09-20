@@ -52,7 +52,7 @@ function multiplicationTable(n) {
 }
 
 // Print Section:
-// Grade Calcu
+// Grade Calculator
 let score = (base_number * 10) + 5;
 console.log("=== Problem 1: Grade Calculator ===");
 console.log("Score = " + score + ", Grade = " + calculateGrade(score));
