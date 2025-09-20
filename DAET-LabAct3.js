@@ -50,3 +50,30 @@ function multiplicationTable(n) {
         console.log(n + " x " + i + " = " + (n * i));
     }
 }
+
+// Print Section:
+// Grade Calcu
+let score = (base_number * 10) + 5;
+console.log("=== Problem 1: Grade Calculator ===");
+console.log("Score = " + score + ", Grade = " + calculateGrade(score));
+console.log("\n");
+
+// Star Pattern Gen
+let rows = base_number + 2;
+console.log("=== Problem 2: Star Pattern ===");
+showStars(rows);
+console.log("\n");
+
+// Prime Num Check
+let number_to_check = base_number + 10;
+console.log("=== Problem 3: Prime Number Checker ===");
+if (isPrime(number_to_check)) {
+    console.log(number_to_check + " is a prime number");
+} else {
+    console.log(number_to_check + " is not a prime number");
+}
+console.log("\n");
+
+// Multiplication Table
+console.log("=== Problem 4: Multiplication Table ===");
+multiplicationTable(base_number);
