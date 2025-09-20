@@ -77,3 +77,4 @@ console.log("\n");
 // Multiplication Table
 console.log("=== Problem 4: Multiplication Table ===");
 multiplicationTable(base_number);
+console.log("\n");
